@@ -1,0 +1,51 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* settings */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+/* colores */
+:root{
+    --naranja: #E55539;
+}
+
+/* navbar NATALY */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #666666;
+
+}
+.navList{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+.navListLink a{
+    color: #a0a0a0;
+
+}
+.navList img{
+    object-fit: none;
+}
+.navListLink:nth-child(1){
+    font-weight: 600;
+    color: #E55539;
+}
+hr{
+    height: 25px;
+}
+.navListLink:nth-child(4){
+    gap:10px
+}
+
