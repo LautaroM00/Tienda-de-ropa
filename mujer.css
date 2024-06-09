@@ -15,10 +15,12 @@
     --gris-titulo:     #393939;
 }
 
+/* Inicio header>Nav */
+
 header nav{
     margin-top: 50px;
     height: 92px;
-    padding: 0 220px 0 170px;
+    padding: 0 180px 0 170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +31,15 @@ header nav h1{
     color: var(--gris-titulo);
     font-size: 26px;
     font-weight: 750;
+}
+
+
+header nav div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
 }
 
 header nav div ul{
@@ -50,4 +61,71 @@ header nav div ul hr{
     color: #D1D1D1;
     border-style: solid;
     border-radius: 1px;
+}
+
+header nav div .cesta{
+    width:100px;
+    cursor: pointer;
+}
+
+header nav div .cesta a{
+    font-size: 14px;
+    color: var(--gris-letra);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* Fin header > nav */
+
+/* Inicio main > aside*/
+
+main{
+    padding: 90px 230px 90px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main aside{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+main aside ul{
+    padding-top: 30px;
+    color: #9d9d9d;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+main aside h3{
+    font-size: 20px;
+    color:var(--gris-titulo);
+}
+
+main .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+}
+
+main .contenedor h2{
+    padding-right: 300px;
+    font-size: 60px;
+    color: var(--gris-titulo);
+}
+
+main .contenedor .cartas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .contenedor .cartas div{
+    border: 1px solid black;
+    width: 300px;
+    height: 450px;
 }
