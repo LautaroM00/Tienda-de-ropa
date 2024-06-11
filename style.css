@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 25px 35px;
     background-color: rgb(255, 255, 255);
     border-bottom: 2px solid #666666;
 }
@@ -51,29 +51,78 @@
 .novedadesMujer{
     background-image:url(./assets/images/foto-mujer.jpg);
     background-size:cover;
-    height: 300px;
+    height: 550px;
     object-fit: none;
 }
 .novedadesMujerText{
     display: flex;
     flex-direction: column;
-    padding: 65px 100px;
-    width: 400px;
+    padding: 120px 170px;
+    width: 700px;
 }
 .novedadesMujerText h3{
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 600;
     color: #E55539;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .novedadesMujerText h2{
-    font-size: 35px;
+    font-size: 60px;
     font-weight: 800;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .novedadesMujerText button{
     background-color: #ffffff;
     border: none;
-    padding: 10px;
-    width: 150px;
+    padding: 17px;
+    width: 250px;
+    font-size: 17px;
     box-shadow: 0px 3px 10px 2px #00000015
+}
+
+/* productos destacados */
+.destacadosMujer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+}
+.destacadosMujer h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.destacadosMujer button{
+    background-color: #ffffff;
+    border: none;
+    padding: 17px;
+    width: 250px;
+    font-size: 17px;
+    box-shadow: 0px 3px 10px 2px #00000015
+}
+.destacadosMujerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.destacadosMujerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    width: 340px;
+}
+.destacadosMujerCard:hover{
+    box-shadow: 0px 3px 10px 2px #00000015;
+}
+.destacadosMujerCard img{
+    width: 332px;
+    padding-bottom: 15px;
+}
+.destacadosMujerCard .oferta{
+    position: absolute;
+    align-self: flex-start;
+    padding: 12px;
+    background-color: #E55539;
+    color: #ffffff;
 }
